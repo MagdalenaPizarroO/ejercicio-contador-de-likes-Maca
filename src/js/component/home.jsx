@@ -1,9 +1,10 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+// Variables de estado:
+//son una forma de trabajar con variables que me permitan ir de forma sincronizada con los valores que se modifiquen y con lo que se ve representado en el componente
+//se hace con useState
+//React-Hooks => se utilizan para trabajar con el ciclo de vida del componente. **min 9:20;
 
-//create your first component
 const Home = () => {
 	let likes = 0;
 	return (
